@@ -1,5 +1,5 @@
 import { UserService } from './user.service';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 
 
@@ -9,10 +9,13 @@ import { Component } from '@angular/core';
     templateUrl : './users.component.html',
     styleUrls : ['./users.component.css']
 })
-export class UsersComponent {
+export class UsersComponent implements OnInit {
     title = 'Users';
     users = [];
-    constructor(service: UserService) {
-        this.users = service.getUsers();
+    constructor(private service: UserService) {
+        
+    }
+    ngOnInit() {
+        this.users = this.service.getUsers();
     }
 }
