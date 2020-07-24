@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "UMS"
+    }
+  },
+  "defaultProject": "UMS",
+  "cli": {
+    "analytics": "23f0bf9b-e2bd-4240-b4d4-ab92d12cbbc7"
+  }
 }
