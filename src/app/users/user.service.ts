@@ -1,47 +1,49 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class UserService {
-        constructor(){
-           }
-    getUsers(){
-        return [
-            {
-                name: 'Emanuele',
-                lastname: 'Correggia',
-                email: 'pippo@gmail.com',
-                fiscalcode: 'pippo78m22z444s',
-                province: 'Crotone',
-                phone: '333333333',
-                age: 34
-            },
-            {
-                name: 'Mario',
-                lastname: 'Correggia',
-                email: 'gastone@gmail.com',
-                fiscalcode: 'pippo78m22z444s',
-                province: 'Cosenza',
-                phone: '333333333',
-                age: 32
-            },
-            {
-                name: 'Giovanni',
-                lastname: 'Correggia',
-                email: 'pluto@gmail.com',
-                fiscalcode: 'pippo78m22z444s',
-                province: 'Reggio Calabria',
-                phone: '333333333',
-                age: 30
-            },
-            {
-                name: 'Marco',
-                lastname: 'Correggia',
-                email: 'topolino@gmail.com',
-                fiscalcode: 'pippo78m22z444s',
-                province: 'Roma',
-                phone: '333333333',
-                age: 28
-            }
-        ]
+
+  export class UserService {
+    constructor() {
     }
+   getUsers() {
+       return [
+           {
+               name: 'Emanuele',
+               lastname: 'Correggia',
+               email: 'pippo@gmail.com',
+               fiscalcode: 'RSAHRN72M22Z444S',
+               province: 'Crotone',
+               phone: '3333333333',
+               age: 34
+           } ,
+           {
+               name: 'Giovanni',
+               lastname: 'Correggia',
+               email: 'topolino@gmail.com',
+               fiscalcode: 'RSAHRN72M22Z444S',
+               province: 'Cosenza',
+               phone: '3335698745',
+               age: 30
+           },
+           {
+               name: 'Marco',
+               lastname: 'Correggia',
+               email: 'pluto@gmail.com',
+               fiscalcode: 'RSAHRN72M22Z444S',
+               province: 'Reggio Calabria',
+               phone: '3336521444',
+               age: 28
+           },
+           {
+               name: 'Andrea',
+               lastname: 'Correggia',
+               email: 'paperino@gmail.com',
+               fiscalcode: 'RSAHRN72M22Z444S',
+               province: 'Rende',
+               phone: '3336555896',
+               age: 25
+           }
+       ];
+   }
 }
+
