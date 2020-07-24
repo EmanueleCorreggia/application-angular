@@ -5,5 +5,13 @@ th {
     background: black;
     color: chartreuse;
     padding: 10px;;
-
+}
+td,th {
+    padding: 15px;
+    border: 1px solid black;
+    
+}
+td {
+    background: silver;
+    color: blue;
 }
