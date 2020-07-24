@@ -1,3 +1,9 @@
 table{
-    border:1px solid red ;
+    border:1px solid grey ;
+}
+th {
+    background: black;
+    color: chartreuse;
+    padding: 10px;;
+
 }
