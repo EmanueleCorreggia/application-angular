@@ -12,5 +12,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit() {
   }
-
+   deleteUser() {
+     alert(this.user.name);
+   }
 }

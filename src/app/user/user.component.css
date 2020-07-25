@@ -4,3 +4,12 @@ td{
   background-color:grey;
   color: greenyellow;
 }
+button.delete {
+  background: white;
+  color: red;
+}
+button {
+  padding: 5px;
+  border: 1px solid black;
+  width: 80px;
+}
