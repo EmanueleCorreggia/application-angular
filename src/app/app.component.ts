@@ -1,4 +1,4 @@
-import { User } from './user';
+import { User } from './classes/user';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  showForm: boolean = false;
   title = 'UMS';
-  userSelected:User;
+  userSelected:User = new User();
   updateUser(user: User) {
-    this.userSelected =user;
+    this.showForm = true;
+    this.userSelected
   }
 }
