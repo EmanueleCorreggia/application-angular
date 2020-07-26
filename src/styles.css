@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 main {
-    width: 98%;
+    width: 99%;
     margin: auto;
     vertical-align: top;
 }
 .users{
     float: left;
-    width: 60%;
+    width: 55%;
 }
 .userDetail {
     float: left;
-    width: 30%;
+    width: 45%;
+    
 }

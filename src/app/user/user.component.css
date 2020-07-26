@@ -13,3 +13,7 @@ button {
   border: 1px solid black;
   width: 80px;
 }
+button.update {
+  color: red;
+  background: blue;
+}
